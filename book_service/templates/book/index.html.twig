@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}La liste des livres{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h2>Liste des livres</h1>
+    <ul>
+        {%for book in books %}
+        <li>{{ book.title }}
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
