@@ -1,0 +1,15 @@
+commandes exécutées
+
+symfony new book_service --webapp
+OU
+composer create-project symfony/skeleton:"7.0.*" book_service
+composer require webapp
+
+symfony server:start --no-tls
+
+Pour connaître les commandes dispo:
+symfony console
+
+Fabriquer un controller
+symfony console make:controller
+
